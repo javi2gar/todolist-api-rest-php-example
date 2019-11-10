@@ -1,0 +1,38 @@
+body {
+    background-color: #292b2c ;
+  }
+
+h1 {
+    color: #5cb85c ;
+  }
+
+h2 {
+    color: #5cb85c ;
+  }
+
+
+footer{
+  color: #5cb85c ;
+}
+
+
+.loading {
+  width: 70px;
+  height: 70px;;
+  border-top: 10px solid #666;
+  border-radius: 50%;
+  animation-name: girar;
+  animation-duration: 1s;
+  border: 3px solid hsla(185, 100%, 62%, 0.2);
+  border-top-color: #3cefff;
+  border-radius: 50%;
+}
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
