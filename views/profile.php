@@ -45,7 +45,7 @@
             <div class="col-1">
                 <form method="post" action="profile.php">
                     <input type="hidden" name="idProfile" value=" <?php echo $previousUser?> ">
-                    <input class="btn btn-outline-success" type = "submit" value="Previus" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?"> 
+                    <input class="btn btn-outline-success" type = "submit" value="Previous" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?"> 
                 </form> 
             </div>   
             <div class="col-1">
