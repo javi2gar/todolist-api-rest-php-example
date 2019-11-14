@@ -1,5 +1,5 @@
 <?php
-    include_once '../Controllers/todosRequestController.php';
+    include_once '../controllers/todosRequestController.php';
     $idProfile = (int) $_POST['idProfile'];    
     $userName = $_POST['userName'];
 ?>

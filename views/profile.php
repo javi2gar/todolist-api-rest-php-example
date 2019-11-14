@@ -1,6 +1,6 @@
 <?php
-    include_once '../Controllers/usersRequestController.php';
-    include_once '../Controllers/errorMessages.php';
+    include_once '../controllers/usersRequestController.php';
+    include_once '../controllers/errorMessages.php';
 
     $idProfile = (int) $_POST['idProfile']-1;
     $nextUser;

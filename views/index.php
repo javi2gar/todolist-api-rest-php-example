@@ -1,5 +1,5 @@
 <?php
-    include_once '../Controllers/usersRequestController.php';
+    include_once '../controllers/usersRequestController.php';
 ?>
 
 <!doctype html>
